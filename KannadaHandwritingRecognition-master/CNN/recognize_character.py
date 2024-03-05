@@ -4,7 +4,8 @@ import tensorflow as tf
 
 import os
 
-from tensorflow.python.keras.models import load_model
+# from tensorflow.python.keras.models import load_model
+from tensorflow.keras.models import load_model
 
 from tensorflow.keras import backend as K
 

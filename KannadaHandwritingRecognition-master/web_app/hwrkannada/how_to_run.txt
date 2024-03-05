@@ -19,3 +19,18 @@ The result is stored in db.sqlite3
 	Execute - python manage.py createsuperuser
 	Enter user name, email id and password
 	open "http://localhost:8000/admin/"
+
+
+8. To install all dependencies : 
+check if in the current destination it works or else got to specified directory by running command
+
+	cd C:\mini-project\KannadaHandwritingRecognition-master\web_app\hwrkannada 
+
+(once inside run 8 commands )
+
+	conda create -n conda1 python=3.8
+	conda activate conda1
+	conda install --file requirement1.txt
+
+
+
