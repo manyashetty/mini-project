@@ -36,8 +36,8 @@ def recognize(dir):
 
 
     # load the 2 models
-    ottakshara_model = load_model('CNN/cnn_model_ottak.h5')
-    char_model = load_model('CNN/cnn_model.h5')
+    ottakshara_model = tf.keras.models.load_model('CNN/cnn_model_ottak.h5')
+    char_model = tf.keras.models.load_model('CNN/cnn_model.h5')
 
     # dictionary to hold file names and their predictions
     predictions = {}

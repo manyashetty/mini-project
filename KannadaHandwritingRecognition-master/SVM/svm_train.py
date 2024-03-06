@@ -18,7 +18,7 @@
 
     Once uncommented, run script using following command -
 
-    - python3 svm_train.py
+    - python svm_train.py
 
     Important - You need python 3.x to run the script
 
@@ -171,6 +171,6 @@ def svm_train(imageName, no_of_classes, modelsave):
     # Save model
     model.save(modelsave)
     cv2.destroyAllWindows()
-
+# train_image
 # TODO: Uncomment the function call below while running script
-# svm_train(train_image, no_of_classes, trained_model_file)
+svm_train(train_image, 52, trained_model_file)
